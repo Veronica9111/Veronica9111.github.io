@@ -98,3 +98,391 @@
   a:visited {
     text-decoration: none;
   }
+
+
+  /* houses */
+.house-title {
+    text-align: center;
+    padding-top: 8em;
+}
+
+.luxury-townhouse {
+    background-color: #3d5b24;
+    width: 12em;
+    height: 3em;
+    text-align: center;
+    color: #FFF;
+    align-items: center;
+    display: flex;
+}
+
+.house-area {
+    background-color: #4d4d4d;
+    width: 12em;
+    height: 3em;
+    text-align: center;
+    color: #FFF;
+    align-items: center;
+    display: flex;
+}
+
+.house-pdf {
+    background-color: #b94047;
+    width: 12em;
+    height: 3em;
+    text-align: center;
+    color: #FFF;
+    align-items: center;
+    display: flex;
+}
+
+.house-tags {
+    display: flex;
+    margin-top: 6em;
+    list-style: none;
+    position: relative;
+    justify-content: center;
+}
+
+.house-tags li {
+    margin-inline-end: 2em;
+    justify-content: center;
+}
+
+.house-tags a {
+    justify-content: center;
+}
+
+.house-nav {
+    border: 0.1rem #808080 solid;
+    list-style: none;
+    display: flex;
+    margin-inline: 3em;
+    height: 4em;
+    margin-top: 6em;
+    justify-content: center;
+}
+
+.house-nav li {
+    margin-inline-end: 2em;
+}
+
+.house-navs-nav a{
+    color: #FFF;
+    font-size: 2em;
+    margin-inline-end: 4em;
+}
+
+.house-overview {
+    margin-top: 10em;
+    display: flex;
+}
+
+.house-description {
+    width: 45%;
+    margin-inline: 3%;
+}
+
+.house-gallery {
+    width: 45%;
+    margin-inline: 3%;
+}
+
+.house-description-title {
+    text-align: center;
+}
+
+.house-description-text {
+    line-height: 2.28;
+    margin-top: 3em;
+    vertical-align: baseline;
+}
+
+.house-description-title2 {
+    font-size: 1.5em;
+    border-top: 1px #AAA solid;
+    margin-top: 4em;
+    padding-top: 2em;
+}
+
+.house-description-tags {
+    margin: 0 -0.4rem -0.8rem;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.house-description-tag {
+    margin: 0 0.4rem 0.8rem;
+    padding: 0;
+    width: calc(33.3333333333% - 0.8rem);
+    background-color: #fff;
+    line-height: 1.5;
+}
+
+.house-description-tag a {
+    padding: 0 1em 0 1em;
+    width: 100%;
+    height: 4em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
+    background-color: #4d4d4d;
+    text-decoration: none;
+    position: relative;
+}
+
+.house-gallery-selection {
+    margin-top: 3em;
+}
+
+.house-gallery-preview {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1em;
+}
+
+.house-gallery-preview {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1em;
+}
+
+.house-facility-title {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.house-facility-content {
+    margin: 0 auto;
+    max-width: 128rem;
+    overflow: hidden;
+}
+
+.house-facility-description {
+    width: calc(50% - 2rem);
+    display: block;
+    margin: 3em;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.deco {
+    border-bottom: 0.1rem #000 solid;
+}
+
+.house-facility-description-text {
+    line-height: 2.14;
+}
+
+.house-facility-content1 {
+    display: flex;
+}
+
+.house-facility-content2 {
+    display: flex;
+}
+
+.house-facility-map {
+    width: calc(50% - 2rem);
+    display: block;
+    margin: 3em;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.house-facility-facilities {
+    width: calc(50% - 2rem);
+    display: block;
+    margin: 3em;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.house-facility-amenity {
+    width: calc(50% - 2rem);
+    display: block;
+    margin: 3em;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.gallery-image {
+    padding: 3em;
+}
+
+.house-facility-facilities-item{
+    margin-top: 3em;
+}
+
+.house-facility-facilities-item-ul {
+    margin: 0 -0.5rem -1rem;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.house-facility-facilities-item-li {
+    margin: 0 0.5rem 1rem;
+    padding: 0;
+    width: calc(33.3333333333% - 1rem);
+}
+
+.house-facility-amenity-item {
+    margin-top: 3em;
+}
+
+.house-facility-amenity-ul {
+    margin: 0 -0.5rem -1rem;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.house-facility-amenity-item-li {
+    margin: 0 0.5rem 1rem;
+    padding: 0;
+    width: calc(33.3333333333% - 1rem);
+}
+
+.house-facility-highlight {
+    display: block;
+    margin: 3em;
+    padding: 3rem;
+    background-color: #fff;
+}
+
+.house-facility-highlight-tags {
+    margin: 0 -0.5rem -1rem;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.house-facility-highlight-tag {
+    background-color: #3d5b24;
+    margin: 0 0.5em 1em;
+    padding: 0.5em;
+}
+
+.house-location-title {
+    text-align: center;
+}
+
+.house-location-google-map {
+    width: 80%;
+    height: 30em;
+    margin-left: 10%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.house-location-address {
+    display: flex;
+}
+
+.house-location-address-text {
+    width: 45%;
+    border-right: 1px black solid;
+    text-align: center;
+}
+
+.house-location-metro {
+    width: 45%;
+    text-align: center;
+}
+
+.house-location-metro-station-ul {
+    margin: 0 0.5em 0.5em;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.house-reservation-title {
+    padding-top: 3em;
+    color: #fff;
+    font-size: 1.5em;
+    line-height: 1.3;
+    text-align: center;
+}
+
+.house-reservation-button {
+    margin-left: 10%;
+    padding: 0;
+    background-color: #fff;
+    width: 80%;
+    text-align: center;
+    display: list-item;
+}
+
+.house-reservation-link {
+    color: #000;
+    display: flex;
+    height: 10em;
+    justify-content: center;
+    align-items: center;
+}
+
+.house-reservation-button-btn {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border: 0.2rem #fff solid;
+    padding: 0 4.8rem;
+    color: #fff;
+    background-color: #b93728;
+    height: 3em;
+    font-size: 2.4rem;
+    line-height: 1.3;
+    display: flex;
+    align-items:center;
+}
+
+.house-reservation-button {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+.house-reservation-telephone-title {
+    width: 45%;
+    font-size: 1em;
+}
+
+.house-reservation-telephone {
+    width: 45%;
+}
+
+.house-reservation-telephone-number {
+    font-size: 3em;
+}
+
+.house-reservation-item {
+    padding-bottom: 3em;
+}
